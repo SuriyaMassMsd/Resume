@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Lugrasimo&family=Oswald&family=Pacifico&family=Poppins:wght@600;700;900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ 
+}
+
+
+
+body{
+    min-width: 100vh;
+    background-color: #297694;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    justify-content: center;
+    margin: 40px;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 1);
+
+}
+
+.container .left_box{
+
+    position: relative;
+    padding: 40px;
+    background: #297694;
+}
+.profile_imp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(63, 63, 63, 0.6);
+}
+
+.profile_imp .logo_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+.profile_imp .logo_img >img{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+
+.profile_imp h2{
+    color: #eae8eb;
+    font-size: 25px;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 16px; 
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.profile_imp h2 span{
+    font-size: 14px;
+    font-weight:500;
+    justify-content: center;
+    margin-left: -13px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.conatct_info{
+    padding-top: 30px;
+
+}
+
+.title{
+    color: #eae8eb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.conatct_info ul{
+    position: relative;
+}
+
+.conatct_info ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.conatct_info ul li .icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(200, 255, 0)
+}
+
+.conatct_info ul li span{
+    position: relative;
+    color: rgb(255, 255, 255);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conatct_info ul li span a{
+    text-decoration: none;
+    color: white;
+}
+
+.education_info{
+    padding-top: 20px;
+    
+}
+
+.education_info ul li{
+    list-style: none;
+}
+
+.education_info h5{
+       
+       font-size: 15px;
+       color: rgb(200, 255, 0);
+       margin-left: 10px;
+}
+
+.education_info h4{
+       font-size: 15px;
+       color: rgb(255, 255, 255);
+       font-family: 'Lato', sans-serif;
+       margin-top: 10px;
+      font-weight: lighter !important;
+       margin-left: 10px;
+
+}
+
+.education_info p{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 30; 
+    margin-top: 8px;
+
+}
+
+.education_info .school{
+    margin-top: 20px;
+}
+
+
+.language_info{
+    padding-top: 20px;
+    
+}
+
+.language_info ul li{
+    list-style: none;
+}
+
+.language_info ul li h4{
+    margin-top: 10px;
+}
+
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    display: block;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.language_info .per1{
+    width: 91%;
+}
+
+.language_info .per2{
+    width: 70%;
+}
+
+.percent div{
+    top: 0;
+    left: 0;
+    background: rgb(30, 255, 0);
+    height: 100%;
+}
+
+.language_info h4{
+    color: white;
+    margin-left: 10px;
+}
+
+.container .right_box{
+
+    position: relative;
+    padding: 40px;
+    background: #e1dfe2;
+}
+
+.para{
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.title1{
+    color: #297694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.title2{
+    color:#297694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+
+.info_1{
+    min-width: 150px;
+}
+
+.info_1 h5{
+    line-height: 1.5em;
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: rgb(87, 86, 84);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.company_del h4{
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: #297694;
+    margin-bottom: 5px;
+}
+
+.company_del p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.title3{
+    color: #297694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 55px;
+    margin-left: 10px;
+
+}
+
+
+.prof-info{
+    margin-top: 20px;
+}
+
+
+.prof-info ul li{
+    list-style: none;
+}
+
+.prof-info{
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+    text-transform: uppercase;
+   color: rgb(104, 104, 104);
+   display: grid;
+   grid-template-columns: 150px  1fr;
+   justify-content: center;
+   align-items: center;
+}
+
+.prof-info .percents{
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background:  #7a797a;
+}
+
+.p_per1{
+    
+    top: 0;
+    left: 0;
+    background: #297694;
+    height: 100%;
+    width: 85%;
+}
+
+.p_per2{
+    
+    top: 0;
+    left: 0;
+    background: #297694;
+    height: 100%;
+    width: 45%;
+}
+
+.p_per3{
+    
+    top: 0;
+    left: 0;
+    background: #297694;
+    height: 100%;
+    width: 55%;
+}
+
+.p_per4{
+    
+    top: 0;
+    left: 0;
+    background: #297694;
+    height: 100%;
+    width: 15%;
+}
+
+.p_per5{
+    
+    top: 0;
+    left: 0;
+    background:#297694;
+    height: 100%;
+    width: 5%;
+}
+
+.p_per6{
+    
+    top: 0;
+    left: 0;
+    background:#297694;
+    height: 100%;
+    width: 55%;
+}
+
+
+
+.title4{
+    color: #297694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 65px;
+    margin-left: 10px;
+
+}
+
+.my_int{
+    
+   margin-top: 20px;
+}
+
+.my_int ul{
+    margin-left: 10px;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+    
+}
+
+.my_int ul li {
+    list-style: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.my_int ul li i{
+    color:#297694;
+    margin-right: 10px;
+}
